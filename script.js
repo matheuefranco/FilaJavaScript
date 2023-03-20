@@ -19,3 +19,13 @@ function mostrarFila(){
     filaElemento.textContent = 
         minhaFila.toString();   
 }
+//------------------------------------------
+function removerFila(){
+    if(minhaFila.isEmpty())
+        alert("Fila vazia");
+    else{
+       let retorno = minhaFila.dequeue();
+       alert("Valor removido:"+retorno);
+       mostrarFila();
+    }// fim else
+}
