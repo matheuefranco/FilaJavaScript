@@ -29,3 +29,11 @@ function removerFila(){
        mostrarFila();
     }// fim else
 }
+//------------------
+function primeiroFila(){
+    if(minhaFila.isEmpty())
+        alert("Fila vazia");
+    else{
+       //?
+    }// fim else
+}

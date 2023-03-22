@@ -29,5 +29,9 @@ class Fila{
      toString(){
        return this.itens.toString();
      }
+
+     first(){
+         return this.itens[0];
+     }
     
 }// fim classe 
